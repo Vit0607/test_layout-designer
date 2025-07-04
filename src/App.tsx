@@ -1,3 +1,5 @@
+import Navigation from '@components/common/Header/Navigation/Navigation';
+import Logo from '@components/Logo/Logo';
 import Button from '@components/ui/Button/Button';
 import Text from '@components/ui/Text/Text';
 
@@ -10,6 +12,8 @@ function App() {
         для бизнеса
       </Text>
       <Button>Выбрать пакет лидов</Button>
+      <Logo />
+      <Navigation />
     </>
   );
 }
