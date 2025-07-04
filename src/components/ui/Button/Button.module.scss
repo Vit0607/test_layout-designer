@@ -1,0 +1,19 @@
+.button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 0.9em;
+  padding: 0.9em 2.5em;
+  border: none;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--color-primary-light);
+  }
+
+  &:focus {
+    background-color: var(--color-danger);
+  }
+}
