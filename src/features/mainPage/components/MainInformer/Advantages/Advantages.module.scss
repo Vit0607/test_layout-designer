@@ -1,0 +1,12 @@
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+
+  .advantageText {
+    line-height: 1;
+    text-align: center;
+    color: var(--color-grey-text);
+    font-size: 1.25rem;
+  }
+}

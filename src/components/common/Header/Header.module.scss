@@ -9,8 +9,6 @@
   left: 0;
   width: 100%;
   align-items: center;
-  // padding-left: var(--outer-padding);
-  // padding-right: var(--outer-padding);
   padding: 0.375rem var(--outer-padding);
 
   .contacts {
@@ -27,6 +25,11 @@
     .phone {
       font-size: 2rem;
       color: var(--color-white);
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: var(--color-grey);
+      }
     }
   }
 }
